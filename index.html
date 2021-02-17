@@ -41,11 +41,80 @@
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#main-navbar"
+              aria-controls="main-navbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
             <a href="index.html" class="navbar-brand"
-              ><img src="assets/img/logo.png" alt=""
+              ><img
+                id="navbar-logo"
+                style="width: auto; height: 44px"
+                src="assets/img/collapselogo.png"
+                alt=""
             /></a>
           </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item active">
+                <a class="nav-link" href="#header-wrap"> Anasayfa </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#schedules"> Program </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team"> Konuşmacılar </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery"> Galeri </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq"> SSS </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sponsors"> Sponsorlar </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#google-map-area"> Bize Ulaşın </a>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu">
+          <li>
+            <a class="page-scrool" href="#header-wrap">Anasayfa</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#schedules">Program</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#team">Konuşmacılar</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#gallery">Galeri</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#faq">SSS</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#sponsors">Sponsorlar</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#google-map-area">Bize Ulaşın</a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
       </nav>
       <!-- Navbar End -->
 
@@ -64,24 +133,14 @@
               alt="First slide"
             />
             <div class="carousel-caption d-md-block">
-              <p class="fadeInUp wow" data-wow-delay=".6s">
-                Global Grand Event on Digital Design
-              </p>
-              <h1 class="wow fadeInDown heading" data-wow-delay=".4s">
-                Design Thinking Conference
+               <h1 style="font-size: xxx-large !important;" class="wow fadeInDown heading" data-wow-delay=".4s">
+                ACM Hacettepe 
               </h1>
-              <a
-                href="#"
-                class="fadeInLeft wow btn btn-common btn-lg"
-                data-wow-delay=".6s"
-                >Get Ticket</a
-              >
-              <a
-                href="#"
-                class="fadeInRight wow btn btn-border btn-lg"
-                data-wow-delay=".6s"
-                >Explore More</a
-              >
+              <h1 class="wow fadeInDown heading" data-wow-delay=".4s">
+                Sosyal Medya Söyleşileri
+              </h1>
+              
+             
             </div>
           </div>
           <div class="carousel-item">
@@ -92,16 +151,16 @@
             />
             <div class="carousel-caption d-md-block">
               <p class="fadeInUp wow" data-wow-delay=".6s">
-                Global Grand Event on Digital Design
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste porro veritatis dignissimos.
               </p>
               <h1 class="wow bounceIn heading" data-wow-delay=".7s">
-                22 Amazing Speakers
+                Lorem ipsum dolor sit.
               </h1>
               <a
-                href="#"
+                href="#schedules"
                 class="fadeInUp wow btn btn-border btn-lg"
                 data-wow-delay=".8s"
-                >Learn More</a
+                >Programı Gör</a
               >
             </div>
           </div>
@@ -113,16 +172,16 @@
             />
             <div class="carousel-caption d-md-block">
               <p class="fadeInUp wow" data-wow-delay=".6s">
-                Global Grand Event on Digital Design
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, enim!
               </p>
               <h1 class="wow fadeInUp heading" data-wow-delay=".6s">
-                Book Your Seat Now!
+                Konuşmacılarla Tanışma Fırsatı Kazan
               </h1>
               <a
-                href="#"
+                href="#team"
                 class="fadeInUp wow btn btn-common btn-lg"
                 data-wow-delay=".8s"
-                >Explore</a
+                >Konuşmacıları Gör</a
               >
             </div>
           </div>
@@ -194,8 +253,8 @@
           >
             <div class="counter wow fadeInRight" data-wow-delay="0.3s">
               <div class="icon"><i class="lni-map"></i></div>
-              <p>Wst. Conference Center</p>
-              <span>San Francisco, CA</span>
+              <p>Online Program</p>
+              <span>youtube/acmhacettepe</span>
             </div>
           </div>
           <!-- Counter Item -->
@@ -214,8 +273,8 @@
           >
             <div class="counter wow fadeInRight" data-wow-delay="0.9s">
               <div class="icon"><i class="lni-users"></i></div>
-              <p>343 Available Seats</p>
-              <span>Hurryup! few tickets are left</span>
+              <p>12 Konuşmacı</p>
+              <span>Sosyal Medyanın Sevilen Yüzleri</span>
             </div>
           </div>
           <!-- Counter Item -->
@@ -224,8 +283,9 @@
           >
             <div class="counter wow fadeInRight" data-wow-delay="1.2s">
               <div class="icon"><i class="lni-coffee-cup"></i></div>
-              <p>Free Lunch & Snacks</p>
-              <span>Don’t miss it</span>
+              <p>Keyifli Geçecek 3 Gün</p>
+              <span>Lorem ipsum dolor sit amet
+              </span>
             </div>
           </div>
         </div>
@@ -1647,64 +1707,6 @@
     </section>
     <!-- Sponsors Section End -->
 
-    <!-- Event Slides Section Start -->
-    <section id="event-slides" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title-header text-center">
-              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">
-                Event Guideline
-              </h1>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">
-                Global Grand Event on Digital Design
-              </p>
-            </div>
-          </div>
-          <div
-            class="col-md-6 col-lg-6 col-xs-12 wow fadeInRight"
-            data-wow-delay="0.3s"
-          >
-            <div class="video">
-              <img class="img-fluid" src="assets/img/about/about.jpg" alt="" />
-            </div>
-          </div>
-          <div
-            class="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft"
-            data-wow-delay="0.3s"
-          >
-            <p class="intro-desc">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries.
-            </p>
-            <h2 class="intro-title">Check List</h2>
-            <ul class="list-specification">
-              <li>
-                <i class="lni-check-mark-circle"></i> Lorem Ipsum is simply
-                dummy
-              </li>
-              <li>
-                <i class="lni-check-mark-circle"></i> Ipsum passages, and more
-                recently
-              </li>
-              <li>
-                <i class="lni-check-mark-circle"></i> PageMaker including
-                versions
-              </li>
-              <li>
-                <i class="lni-check-mark-circle"></i> Lorem Ipsum is simply
-                dummy
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Event Slides Section End -->
-
     <!-- Map Section Start -->
     <section id="google-map-area">
       <div class="container-fluid">
@@ -1721,7 +1723,13 @@
             class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp"
             data-wow-delay="0.2s"
           >
-            <h3><img src="assets/img/logo.png" alt="" /></h3>
+            <h3>
+              <img
+                src="assets/img/logo.png"
+                style="width: auto; height: 44px"
+                alt=""
+              />
+            </h3>
             <p>
               Aorem ipsum dolor sit amet elit sed lum tempor incididunt ut
               labore el dolore alg minim veniam quis nostrud ncididunt.
