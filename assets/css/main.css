@@ -1,10 +1,9 @@
-:root{
-  --green:rgb(63, 224, 208)
-  --pink:rgb(238, 130, 239)
-  --purple:rgb(183, 160, 228)
+:root {
+  --green: rgb(63, 224, 208) --pink:rgb(238, 130, 239) --purple:rgb(183, 160, 228)
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans:700");
+
 html {
   overflow-x: hidden;
 }
@@ -25,7 +24,10 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-size: 36px;
   font-weight: 700;
   font-family: 'Josefin Sans', sans-serif;
@@ -53,13 +55,15 @@ p {
   font-size: 14px;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: outside none none;
   margin: 0;
   padding: 0;
 }
 
-ul li, ol li {
+ul li,
+ol li {
   list-style: none;
 }
 
@@ -132,7 +136,8 @@ ul li, ol li {
   background-color: var(--purple);
 }
 
-.section-title:before, .section-title:after {
+.section-title:before,
+.section-title:after {
   left: 50%;
   margin-left: -45px;
 }
@@ -262,7 +267,8 @@ button:focus {
   outline: none !important;
 }
 
-.icon-close, .icon-check {
+.icon-close,
+.icon-check {
   color: var(--purple);
 }
 
@@ -308,7 +314,8 @@ a.back-to-top i {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
-a.back-to-top:hover, a.back-to-top:focus {
+a.back-to-top:hover,
+a.back-to-top:focus {
   text-decoration: none;
 }
 
@@ -472,10 +479,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 @-webkit-keyframes sk-circleBounceDelay {
-  0%, 80%, 100% {
+
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -483,10 +494,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 @keyframes sk-circleBounceDelay {
-  0%, 80%, 100% {
+
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -548,6 +563,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -557,6 +573,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -656,7 +673,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: relative;
 }
 
-.navbar-expand-lg .navbar-nav li > a:before {
+.navbar-expand-lg .navbar-nav li>a:before {
   content: '';
   position: absolute;
   top: 0;
@@ -686,7 +703,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav li a:hover,
-.navbar-expand-lg .navbar-nav li .active > a,
+.navbar-expand-lg .navbar-nav li .active>a,
 .navbar-expand-lg .navbar-nav li a:focus {
   color: var(--purple);
   outline: none;
@@ -790,7 +807,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: var(--purple);
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
   background: transparent;
 }
 
@@ -830,28 +848,36 @@ a.back-to-top:hover, a.back-to-top:focus {
   .navbar-header {
     width: 100%;
   }
+
   .navbar-brand {
     position: absolute;
     padding: 15px 15px;
     top: 0;
   }
+
   .navbar-brand img {
     width: 75%;
   }
+
   #mobile-menu {
     display: none;
   }
+
   .slicknav_menu {
     display: block;
   }
+
   .slicknav_nav .active a {
     background: var(--purple);
     color: #fff;
   }
-  .slicknav_nav a:hover, .slicknav_nav .active {
+
+  .slicknav_nav a:hover,
+  .slicknav_nav .active {
     color: var(--purple);
     background: #f5f5f5;
   }
+
   .slicknav_nav .dropdown li a.active {
     background: #f5f5f5;
     color: var(--purple);
@@ -1011,7 +1037,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 20px 20px;
 }
 
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link, .schedule .schedule-tab-title .nav-tabs .nav-link.active,
+.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link,
+.schedule .schedule-tab-title .nav-tabs .nav-link.active,
 .schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover {
   background: var(--purple);
   border: 1px solid var(--purple);
@@ -1021,12 +1048,14 @@ a.back-to-top:hover, a.back-to-top:focus {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h4, .schedule .schedule-tab-title .nav-tabs .nav-link.active h4,
+.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h4,
+.schedule .schedule-tab-title .nav-tabs .nav-link.active h4,
 .schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h4 {
   color: #fff;
 }
 
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h5, .schedule .schedule-tab-title .nav-tabs .nav-link.active h5,
+.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h5,
+.schedule .schedule-tab-title .nav-tabs .nav-link.active h5,
 .schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h5 {
   color: #fff;
 }
@@ -2069,7 +2098,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #pricing .price-block-wrapper .pricing-list {
-  padding: 10px  60px 10px 78px;
+  padding: 10px 60px 10px 78px;
   text-align: left;
 }
 

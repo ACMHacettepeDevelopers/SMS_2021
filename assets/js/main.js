@@ -21,14 +21,14 @@
     /* ==========================================================================
        countdown timer
        ========================================================================== */
-    jQuery("#clock").countdown("2018/06/21", function (event) {
+    jQuery("#clock").countdown("2021/04/19", function (event) {
       var $this = jQuery(this).html(
         event.strftime(
           "" +
-            '<div class="time-entry days"><span>%-D</span> Days</div> ' +
-            '<div class="time-entry hours"><span>%H</span> Hours</div> ' +
-            '<div class="time-entry minutes"><span>%M</span> Minutes</div> ' +
-            '<div class="time-entry seconds"><span>%S</span> Seconds</div> '
+          '<div class="time-entry days"><span>%-D</span> Days</div> ' +
+          '<div class="time-entry hours"><span>%H</span> Hours</div> ' +
+          '<div class="time-entry minutes"><span>%M</span> Minutes</div> ' +
+          '<div class="time-entry seconds"><span>%S</span> Seconds</div> '
         )
       );
     });
@@ -76,8 +76,7 @@
 
     $(".back-to-top").on("click", function (event) {
       event.preventDefault();
-      $("html, body").animate(
-        {
+      $("html, body").animate({
           scrollTop: 0,
         },
         600
