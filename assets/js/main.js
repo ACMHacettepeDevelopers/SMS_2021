@@ -21,7 +21,7 @@
     /* ==========================================================================
        countdown timer
        ========================================================================== */
-    jQuery("#clock").countdown("2021/04/19", function (event) {
+    jQuery("#clock").countdown("2021/04/19 15:00:00", function (event) {
       var $this = jQuery(this).html(
         event.strftime(
           "" +
